@@ -1,0 +1,95 @@
+@mixin itemcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$fontfamilyheading:(font-family: 'Source Sans Pro', Arial, sans-serif);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 64px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 37, 65);
+}
+
+.innerbox {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    height: 30px;
+    display: flex;
+}
+
+.firstbox {
+    height: 30px;
+    width: 130%;
+    display: flex;
+}
+
+.iconsubbox {
+    @include itemcenter();
+    height: 30px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.subboxpar {
+    height: 30px;
+    width: 60%;
+    display: flex;
+}
+
+.subbox {
+    @include itemcenter();
+    height: 29px;
+    width: 100%;
+    font-family: $fontfamilyheading;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.secondbox {
+    height: 30px;
+    width: 90%;
+}
+
+.thirdbox {
+    height: 30px;
+    width: 80%;
+}
+
+.subboxpar1 {
+    height: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.subbox1 {
+    @include itemcenter();
+    height: 29px;
+    width: 100%;
+    font-family: $fontfamilyheading;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.subbox2 {
+    @include itemcenter();
+    padding: 5px;
+    font-family: $fontfamilyheading;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
