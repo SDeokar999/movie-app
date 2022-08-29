@@ -1,12 +1,14 @@
 import './style/headerstyle.css';
 
-import MovieCard from './MovieCard';
+import DashboardComponent from './DashboardComponent';
 import HeaderBar from './HeaderBar';
+import SearchBar from './SearchBar';
 function App() {
     return (
         <>
             <HeaderBar />
-            <MovieCard />
+            <SearchBar/>
+            <DashboardComponent />
         </>
     );
 }

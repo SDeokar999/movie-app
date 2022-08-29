@@ -15,7 +15,7 @@
   margin: 5px;
   width: 50%;
   display: flex;
-  justify-content: center;
+
   align-items: center;
 }
 
@@ -23,8 +23,11 @@
   margin: 5px;
   width: 30%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  color:#02B;
+  font-family:'Source Sans Pro', Arial, sans-serif;
+  font-size:1.5em;
+  font-weight:600
 }
 
 .moivecardboxheader13 {
@@ -47,6 +50,7 @@
   padding-bottom: 5px;
   font-weight: 600;
   font-size: 15px;
+  cursor:pointer
 }
 
 .moivecardboxheader13itemsother {
@@ -60,33 +64,55 @@
   padding-bottom: 5px;
   font-weight: 600;
   font-size: 15px;
+  cursor:pointer
 }
 
 .images {
   width: 100%;
   height: 100%;
 }
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height:8px;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgrey;
+  border-radius:100px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 .moivecardboxfooter {
-  height: 280px;
+  height: auto;
   padding-top: 10px;
   margin: 10px;
   display: flex;
 }
 
 .moivecardboxfootersubbox {
-  height: 250px;
+  height: auto;
   width: 150px;
   margin: 10px;
+  cursor:pointer
 }
 
 .moivecardboxfootersubboximage {
   height: 200px;
   width: 150px;
 }
-
+img{
+border-radius:10px
+}
 .movierating {
-  border: 1px solid red;
+  border: 3px solid #21d07a;
   border-radius: 100%;
   height: 35px;
   width: 35px;
@@ -95,6 +121,8 @@
   align-items: center;
   padding: auto;
   font-size: 12px;
+  background-color:black;
+  color:white;
 }
 
 .moivecardboxfootersubboxheading {
@@ -104,6 +132,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.moivecardboxfootersubboxheadingtitle {
+  height: 30px;
+  width: 150px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px
 }
 
 .moivecardboxfootersubboxdate {

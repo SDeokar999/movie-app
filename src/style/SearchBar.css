@@ -1,0 +1,57 @@
+.Searchbox{
+  margin: 0px;
+  padding:0px;
+  }
+.searchcardbox {
+  height: 200px;
+  position: relative;
+    text-align: center;
+    color: white;
+}
+.imagess{
+border-radius:0px;
+border:5px solid black;
+height:250px;
+width:100%;
+ filter: blur(2px);
+  -webkit-filter: blur(2px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+ position: absolute;
+  top: 10%;
+  left: 5%;
+padding:10px;
+padding-left:50px;
+font-size:1.7em;
+font-family:'Source Sans Pro', Arial, sans-serif
+}
+h3{
+ position: absolute;
+  top: 40%;
+  left: 5%;
+padding:10px;
+padding-left:50px;
+font-size:1.7em;
+font-family:'Source Sans Pro', Arial, sans-serif
+}
+.example{
+position: absolute;
+  top: 80%;
+  left: 5%;
+padding:10px;
+padding-left:50px;
+}
+input{
+width:1000px;
+height:30px;
+border-radius:20px;
+padding-left:20px
+}
+button{
+height:35px;
+width:100px;
+border-radius:20px;
+}
